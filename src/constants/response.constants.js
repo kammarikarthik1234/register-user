@@ -27,3 +27,8 @@ export const MESSAGE = {
   NOT_GET_LEADERBOARD: "No leaderboard with that curriculum id is found",
   NOT_FOUND_EXERCISES: "No exercises with that curriculum id is found",
 };
+
+export const ROUTES = {
+  REGISTER_USER: "/register",
+  API: "/api",
+};
