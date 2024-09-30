@@ -26,7 +26,6 @@ document
     });
     if (response.ok) {
       const jsonResponse = await response.json();
-      console.log(jsonResponse.data);
       alert("Registration successful!");
     } else {
       const jsonResponse = await response.json();
