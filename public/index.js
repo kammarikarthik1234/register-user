@@ -31,4 +31,5 @@ document
       const jsonResponse = await response.json();
       alert(jsonResponse.data.errorMessage);
     }
+    window.location.reload();
   });
